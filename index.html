@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>tic tac toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body onload="init()">
+    <div id="player"></div>
+    <div class="row">
+        <div class="block" onclick="set('11')" id="block11"></div>
+        <div class="block" onclick="set('12')" id="block12"></div>
+        <div class="block" onclick="set('13')" id="block13"></div>
+    </div>
+    <div class="row">
+        <div class="block" onclick="set('21')" id="block21"></div>
+        <div class="block" onclick="set('22')" id="block22"></div>
+        <div class="block" onclick="set('23')" id="block23"></div>
+    </div>
+    <div class="row">
+        <div class="block" onclick="set('31')" id="block31"></div>
+        <div class="block" onclick="set('32')" id="block32"></div>
+        <div class="block" onclick="set('33')" id="block33"></div>
+    </div>
+    <div id="result"></div>
+    <button onclick="restart()">Restart</button>
+</body>
+</html>

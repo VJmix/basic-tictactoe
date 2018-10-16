@@ -1,0 +1,16 @@
+.block {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.block:hover {
+    transform: scale(1.1);
+}
+.row {
+    display: flex;
+}
+.symbol {
+    padding: 18px 0 0 18px;
+}
